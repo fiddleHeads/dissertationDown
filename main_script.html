@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="main_script.knit" />
+<meta property="og:type" content="book" />
+
+
+
+
+
+
+
+<meta name="description" content="main_script.knit">
+
+<title>main_script.knit</title>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+/* show arrow before summary tag as in bootstrap
+TODO: remove if bootstrap in updated in html_document (rmarkdown#1485) */
+details > summary {
+  display: list-item;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<!--bookdown:title:start-->
+<!--bookdown:title:end-->
+
+<!--bookdown:toc:start-->
+<div id="TOC">
+<ul>
+<li><a href="#introduction" id="toc-introduction"><span class="toc-section-number">1</span> Introduction</a></li>
+<li><a href="#cascading-hazards-cascading-consequences-linking-social-ecological-systems-in-post-fire-recovery" id="toc-cascading-hazards-cascading-consequences-linking-social-ecological-systems-in-post-fire-recovery"><span class="toc-section-number">2</span> Cascading Hazards, Cascading Consequences: Linking social-ecological systems in post-fire recovery</a></li>
+<li><a href="#living-with-wildfire-from-a-liability-to-a-stewardship-framework" id="toc-living-with-wildfire-from-a-liability-to-a-stewardship-framework"><span class="toc-section-number">3</span> Living with Wildfire: From a Liability to a Stewardship Framework</a></li>
+<li><a href="#accepting-ecologies-of-impermanence-sensemaking-in-the-aftermath-of-the-cameron-peak-fire" id="toc-accepting-ecologies-of-impermanence-sensemaking-in-the-aftermath-of-the-cameron-peak-fire"><span class="toc-section-number">4</span> Accepting Ecologies of Impermanence: Sensemaking in the Aftermath of the Cameron Peak Fire</a></li>
+<li><a href="#conclusion" id="toc-conclusion"><span class="toc-section-number">5</span> Conclusion</a></li>
+</ul>
+</div>
+<!--bookdown:toc:end-->
+
+<!--bookdown:body:start-->
+<!-- Title page -->
+<!-- Note this section is Required -->
+<!-- Set numbers in non Arabic format. And starts in page II as required by G+PS.
+NOTE: Remove normal markdown chapters before rendering to PDF  -->
+<!-- # Committee form -->
+<!-- Note this section is Required -->
+<p>The following individuals certify that they have read, and recommend to the Faculty of Graduate
+and Postdoctoral Studies for acceptance, the dissertation entitled:</p>
+<p><br />
+</p>
+<p>submitted by in partial fulfillment of the requirements for</p>
+<p>the degree of </p>
+<p>in </p>
+<p><strong>Examining Committee:</strong></p>
+<p><br />
+Supervisor</p>
+<p><br />
+Supervisory Committee Member</p>
+<p><br />
+University Examiner</p>
+<p><br />
+University Examiner</p>
+<p><br />
+External Examiner</p>
+<!-- Committee members that did not attend the defence -->
+<p><strong>Additional Supervisory Committee Members:</strong></p>
+<p><br />
+Supervisory Committee Member</p>
+<!-- Global page configuration -->
+<!-- # Abstract -->
+<!-- Remember, It can't be longer than 350 words! -->
+<p>High severity wildfire and post-fire flooding can dramatically alter landscapes and disrupt people’s lives, sometimes in complex ways not readily visible to the broader public or to the naked eye. Wildfires in the western U.S., and elsewhere in the world, are becoming more destructive for communities and ecological systems. In response to the changes in how wildfires are affecting our communities and environments over roughly the last two decades, this research explores how people are reorienting to transformed lives and landscapes and coping with loss as a result of wildfire. Drawing on over two years of situated, ethnographic fieldwork in a wildfire-impacted landscape, I ask: how do people understand their own lives and experiences within the different timescales and lifecycles of human and more than human ecologies in the formation of wildfire? What capacity do we have to make sense of affective and ecological transformations wrought by wildfire and post-fire flooding? How do institutional and policy responses to wildfires shape people’s relations with different forms of governance and the environment? How do such responses affect the capacity of people to make decisions about their lives and futures? I explore these questions through an anthropological exploration in the landscapes of the upper Poudre Canyon in northern Colorado. My research highlights three main arguments. First, in mountain watersheds, we can anticipate social consequences resulting from wildfire by examining the ecological disturbance cascade it initiates. Second, state-sponsored efforts to cultivate best practices for living with wildfire risk should be more geographically and socially expansive, to acknowledge that contending with wildfire and its associated hazards of smoke and flooding is a society-wide challenge. Third, people experience a recalibration of relationship to place from engaging in processes of sensemaking in response to extreme wildfires and resultant landscape changes. This dissertation contributes to a more than human anthropology by attending to the qualities of fire and flood as they exist in a processual and relational material world through sustained ethnographic engagement with people and place.</p>
+<!-- # Lay Summary -->
+<!-- Remember, It can't be longer than 150 words! -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem massa, suscipit vel dapibus a, iaculis ut sapien. Duis eu tellus vitae ligula semper commodo. Morbi felis tortor, ullamcorper vitae venenatis sit amet, commodo eu tortor. Proin ultrices ipsum ipsum, sed viverra arcu maximus eget. Aliquam nec nisl rutrum quam tempus iaculis nec sed dui. Nulla vitae imperdiet neque. Morbi eget eleifend lectus. Etiam semper id purus et scelerisque. Suspendisse lectus libero, iaculis et arcu vel, mattis mollis odio.</p>
+<p>Phasellus quis metus erat. Nunc erat mi, posuere eleifend tortor quis, consequat dignissim metus. Pellentesque eget ante massa. Integer ultrices pulvinar varius. Sed dapibus sed arcu sit amet cursus. In hac habitasse platea dictumst. Aliquam vehicula est sed velit dapibus commodo. Donec placerat eu metus vel efficitur. Pellentesque commodo, nisi at elementum sagittis, erat magna feugiat elit, sit amet facilisis est diam eget tellus. Ut tellus velit, fringilla non consequat ut.</p>
+<!-- # Preface -->
+<!-- This is mandatory! -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nulla malesuada, auctor arcu at, tempor nibh. Etiam ultricies dictum nisi eu vulputate. Suspendisse tempor aliquam efficitur. Curabitur eget orci ac purus hendrerit laoreet. Proin porta arcu nisl, a fermentum tellus suscipit et. Nulla mattis orci ac tortor facilisis venenatis. Phasellus a velit tristique, tincidunt purus id, aliquet tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed et turpis sed odio faucibus aliquam nec eget est.</p>
+<p>Phasellus ligula lacus, euismod posuere pretium sit amet, ornare condimentum nisl. Integer eu aliquet lectus, sit amet sagittis turpis. Etiam tempus bibendum nibh, eu accumsan sapien. Suspendisse tincidunt sit amet nisi vel consectetur. Donec vitae odio elit. Quisque dignissim risus feugiat nunc tempor hendrerit. Fusce consequat lectus eget felis tempus, et lobortis ante ornare. Etiam euismod quam eu scelerisque mattis. Praesent nisi lectus, tincidunt nec sapien ac, fermentum pellentesque orci.</p>
+<p>Praesent semper faucibus mauris, in suscipit quam mattis et. Curabitur malesuada placerat magna. Morbi eget bibendum purus, sollicitudin faucibus enim. Donec condimentum arcu quis eros placerat sodales. Nunc non elit sodales, blandit risus vel, mattis odio. Nullam in aliquet ligula, ut viverra enim. Aliquam viverra justo non neque consequat dictum. Nunc tempor arcu sem, non blandit nisl dapibus eu. Donec vitae pretium magna. Nam risus augue, ultricies ac sollicitudin ut, rutrum eleifend purus. Donec lorem turpis, lacinia quis pretium non, sollicitudin eu enim. Curabitur eu eros congue, vehicula ante vitae, semper elit.</p>
+<p>Fusce feugiat consectetur erat, nec venenatis massa malesuada nec. Curabitur varius convallis sem eget efficitur. Morbi congue odio non turpis cursus efficitur. In hac habitasse platea dictumst. Cras porttitor porttitor nibh id tempor. Sed bibendum quam nisl, sed congue lectus condimentum et. Curabitur nec mauris sapien. Morbi dictum ex sodales turpis ornare mattis. Suspendisse potenti. Pellentesque commodo lorem purus, id mattis nibh efficitur et. Cras tempus rutrum interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris placerat ligula eu nisl sagittis consequat. Curabitur placerat, elit quis cursus tempor, mauris augue posuere metus, ut elementum orci diam maximus lectus. Proin sed sodales nulla. Maecenas non sapien nec mauris facilisis fringilla.</p>
+<!-- Include a table of contents (including list of figures and tables) without numbering and with dots -->
+<!-- This will correct the bookmarks paging (See issue #4)  -->
+<!-- # Glossary -->
+<!-- Note this section is Optional -->
+<!-- Edit glossary.csv -- this file does not need to be edited  -->
+<!-- # Acknowledgements -->
+<!-- This section is optional -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nulla malesuada, auctor arcu at, tempor nibh. Etiam ultricies dictum nisi eu vulputate. Suspendisse tempor aliquam efficitur. Curabitur eget orci ac purus hendrerit laoreet. Proin porta arcu nisl, a fermentum tellus suscipit et. Nulla mattis orci ac tortor facilisis venenatis. Phasellus a velit tristique, tincidunt purus id, aliquet tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed et turpis sed odio faucibus aliquam nec eget est.</p>
+<p>Phasellus ligula lacus, euismod posuere pretium sit amet, ornare condimentum nisl. Integer eu aliquet lectus, sit amet sagittis turpis. Etiam tempus bibendum nibh, eu accumsan sapien. Suspendisse tincidunt sit amet nisi vel consectetur. Donec vitae odio elit. Quisque dignissim risus feugiat nunc tempor hendrerit. Fusce consequat lectus eget felis tempus, et lobortis ante ornare. Etiam euismod quam eu scelerisque mattis. Praesent nisi lectus, tincidunt nec sapien ac, fermentum pellentesque orci.</p>
+<p>Praesent semper faucibus mauris, in suscipit quam mattis et. Curabitur malesuada placerat magna. Morbi eget bibendum purus, sollicitudin faucibus enim. Donec condimentum arcu quis eros placerat sodales. Nunc non elit sodales, blandit risus vel, mattis odio. Nullam in aliquet ligula, ut viverra enim. Aliquam viverra justo non neque consequat dictum. Nunc tempor arcu sem, non blandit nisl dapibus eu. Donec vitae pretium magna. Nam risus augue, ultricies ac sollicitudin ut, rutrum eleifend purus. Donec lorem turpis, lacinia quis pretium non, sollicitudin eu enim. Curabitur eu eros congue, vehicula ante vitae, semper elit.</p>
+<p>Fusce feugiat consectetur erat, nec venenatis massa malesuada nec. Curabitur varius convallis sem eget efficitur. Morbi congue odio non turpis cursus efficitur. In hac habitasse platea dictumst. Cras porttitor porttitor nibh id tempor. Sed bibendum quam nisl, sed congue lectus condimentum et. Curabitur nec mauris sapien. Morbi dictum ex sodales turpis ornare mattis. Suspendisse potenti. Pellentesque commodo lorem purus, id mattis nibh efficitur et. Cras tempus rutrum interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris placerat ligula eu nisl sagittis consequat. Curabitur placerat, elit quis cursus tempor, mauris augue posuere metus, ut elementum orci diam maximus lectus. Proin sed sodales nulla. Maecenas non sapien nec mauris facilisis fringilla.</p>
+<!-- Dedication -->
+<div id="introduction" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Introduction</h1>
+<!-- Set Numbering properly for rest of the document -->
+<!-- This code will needs to be before each chapter so figures and tables numbering are according to each chapter -->
+<!-- Note that the chapter number changes each time -->
+<!-- From here on, include your different data chapters using normal Rmarkdown titles -->
+<!-- Modify me! -->
+</div>
+<div id="cascading-hazards-cascading-consequences-linking-social-ecological-systems-in-post-fire-recovery" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Cascading Hazards, Cascading Consequences: Linking social-ecological systems in post-fire recovery</h1>
+<!-- Set figure and table numbering according to the chapter -->
+<!-- Modify me! -->
+</div>
+<div id="living-with-wildfire-from-a-liability-to-a-stewardship-framework" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Living with Wildfire: From a Liability to a Stewardship Framework</h1>
+<!-- Set figure and table numbering according to the chapter -->
+<!-- Modify me! -->
+</div>
+<div id="accepting-ecologies-of-impermanence-sensemaking-in-the-aftermath-of-the-cameron-peak-fire" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Accepting Ecologies of Impermanence: Sensemaking in the Aftermath of the Cameron Peak Fire</h1>
+<!-- Set figure and table numbering according to the chapter -->
+<!-- <!-- Modify me! -->
+<p>–&gt;
+<!-- # Insert Title of Chapter 5 Here --></p>
+<!-- <!-- Set figure and table numbering according to the chapter -->
+<p>–&gt;
+<!-- \renewcommand{\thefigure}{5.\arabic{figure}} -->
+<!-- \setcounter{figure}{0} -->
+<!-- \renewcommand{\thetable}{5.\arabic{table}} -->
+<!-- \setcounter{table}{0} -->
+<!-- \renewcommand{\theequation}{5.\arabic{equation}} -->
+<!-- \setcounter{equation}{0} --></p>
+<!-- ```{r chapter_five, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F} -->
+<!-- ``` -->
+<!-- \clearpage -->
+<!-- Done with data chapters, last sections -->
+</div>
+<div id="conclusion" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Conclusion</h1>
+<!-- This section is mandatory! -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nulla malesuada, auctor arcu at, tempor nibh. Etiam ultricies dictum nisi eu vulputate. Suspendisse tempor aliquam efficitur. Curabitur eget orci ac purus hendrerit laoreet. Proin porta arcu nisl, a fermentum tellus suscipit et. Nulla mattis orci ac tortor facilisis venenatis. Phasellus a velit tristique, tincidunt purus id, aliquet tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed et turpis sed odio faucibus aliquam nec eget est.</p>
+<p>Phasellus ligula lacus, euismod posuere pretium sit amet, ornare condimentum nisl. Integer eu aliquet lectus, sit amet sagittis turpis. Etiam tempus bibendum nibh, eu accumsan sapien. Suspendisse tincidunt sit amet nisi vel consectetur. Donec vitae odio elit. Quisque dignissim risus feugiat nunc tempor hendrerit. Fusce consequat lectus eget felis tempus, et lobortis ante ornare. Etiam euismod quam eu scelerisque mattis. Praesent nisi lectus, tincidunt nec sapien ac, fermentum pellentesque orci.</p>
+<p>Praesent semper faucibus mauris, in suscipit quam mattis et. Curabitur malesuada placerat magna. Morbi eget bibendum purus, sollicitudin faucibus enim. Donec condimentum arcu quis eros placerat sodales. Nunc non elit sodales, blandit risus vel, mattis odio. Nullam in aliquet ligula, ut viverra enim. Aliquam viverra justo non neque consequat dictum. Nunc tempor arcu sem, non blandit nisl dapibus eu. Donec vitae pretium magna. Nam risus augue, ultricies ac sollicitudin ut, rutrum eleifend purus. Donec lorem turpis, lacinia quis pretium non, sollicitudin eu enim. Curabitur eu eros congue, vehicula ante vitae, semper elit.</p>
+<p>Fusce feugiat consectetur erat, nec venenatis massa malesuada nec. Curabitur varius convallis sem eget efficitur. Morbi congue odio non turpis cursus efficitur. In hac habitasse platea dictumst. Cras porttitor porttitor nibh id tempor. Sed bibendum quam nisl, sed congue lectus condimentum et. Curabitur nec mauris sapien. Morbi dictum ex sodales turpis ornare mattis. Suspendisse potenti. Pellentesque commodo lorem purus, id mattis nibh efficitur et. Cras tempus rutrum interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris placerat ligula eu nisl sagittis consequat. Curabitur placerat, elit quis cursus tempor, mauris augue posuere metus, ut elementum orci diam maximus lectus. Proin sed sodales nulla. Maecenas non sapien nec mauris facilisis fringilla.</p>
+<!-- # References -->
+<!-- Reset page config. For proper referencing  -->
+<p>
+=2em
+=-2em</p>
+<div id="refs">
+
+</div>
+<!-- Go back to original page config. -->
+<!-- # Appendices -->
+<!-- \section*{Appendices} -->
+<!-- \addcontentsline{toc}{section}{Appendices}  -->
+<!-- \setcounter{secnumdepth}{0} <!-- remove numbering for appendices -->
+<p>–&gt;</p>
+<!-- ## Appendix A - Supplementary information for Chapter Two -->
+<!-- <!-- Set Figure, table and equations numbering according to the chapter -->
+<p>–&gt;
+<!-- \renewcommand{\thefigure}{A2.\arabic{figure}} -->
+<!-- \setcounter{figure}{0} -->
+<!-- \renewcommand{\thetable}{A2.\arabic{table}} -->
+<!-- \setcounter{table}{0} -->
+<!-- \renewcommand{\theequation}{A2.\arabic{equation}} -->
+<!-- \setcounter{equation}{0} --></p>
+<!-- ```{r appendix_a, child = '~/GitHub/FishForVisa/Scripts/supplements.Rmd', eval = F} -->
+<!-- ``` -->
+<!-- ## Appendix B - Supplementary information for Chapter Three -->
+<!-- <!-- Set Figure, table and equations numbering according to the chapter -->
+<p>–&gt;
+<!-- \renewcommand{\thefigure}{A3.\arabic{figure}} -->
+<!-- \setcounter{figure}{0} -->
+<!-- \renewcommand{\thetable}{A3.\arabic{table}} -->
+<!-- \setcounter{table}{0} -->
+<!-- \renewcommand{\theequation}{A3.\arabic{equation}} -->
+<!-- \setcounter{equation}{0} --></p>
+<!-- ```{r appendix_b, child = '~/GitHub/TransEmergence/Scripts/Supplements.Rmd', eval = F} -->
+<!-- ``` -->
+<!-- ## Appendix C - Supplementary information for Chapter Four -->
+<!-- <!-- Set Figure, table and equations numbering according to the chapter -->
+<p>–&gt;
+<!-- \renewcommand{\thefigure}{A4.\arabic{figure}} -->
+<!-- \setcounter{figure}{0} -->
+<!-- \renewcommand{\thetable}{A4.\arabic{table}} -->
+<!-- \setcounter{table}{0} -->
+<!-- \renewcommand{\theequation}{A4.\arabic{equation}} -->
+<!-- \setcounter{equation}{0} --></p>
+<!-- ```{r appendix_c, child = '~/GitHub/OC_Transboundary/Ecol/Supplements.Rmd', eval = F} -->
+<!-- ``` -->
+<!-- END OF SCRIPT -->
+</div>
+<!--bookdown:body:end-->
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+</html>
