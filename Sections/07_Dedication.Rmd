@@ -9,7 +9,7 @@ output:
 
 \begin{center}
     \vspace*{\fill}
-    Insert here your dedication
+    To Mary Jane, for guiding me through loss and change.
     \vspace*{\fill}
 \end{center}
 

@@ -1,8 +1,8 @@
 ---
 output:
   # bookdown::pdf_book: # comment when rendering to word document
-  # bookdown::word_document2: # uncomment if rendering to word document
-  bookdown::html_book:
+  bookdown::word_document2: # uncomment if rendering to word document
+  # bookdown::html_book:
     toc: yes # change me to yes if rendering to Word
     keep_tex: no
     number_sections: true
@@ -19,11 +19,13 @@ header-includes:
    - \usepackage{wrapfig}
    - \usepackage{pdfpages}
    - \usepackage{caption} # allows setting caption width for tables
-bibliography: ./References/introduction.bib
+bibliography: ./References/conclusion.bib
 csl: ./References/ref_format.csl
 link-citations: true
 linkReferences: true
 run_pandoc: true
+citeproc: true
+always_allow_html: true
 linkcolor: black
 urlcolor: black
 ---
@@ -170,7 +172,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{1.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r Introduction, child = './Sections/08_Introduction.Rmd', eval = F}
+```{r Introduction, child = './Sections/08_Introduction.Rmd', eval = T}
 ```
 
 \clearpage
@@ -188,7 +190,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{2.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_two, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F}
+```{r chapter_two, child = './chapters/chapter_two.Rmd', eval = T}
 ```
 
 \clearpage
@@ -204,7 +206,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{3.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_three, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F}
+```{r chapter_three, child = './chapters/chapter_three.Rmd', eval = T}
 ```
 
 \clearpage
@@ -220,7 +222,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{4.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_four, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F}
+```{r chapter_four, child = './chapters/chapter_four.Rmd', eval = T}
 ```
 
 \clearpage

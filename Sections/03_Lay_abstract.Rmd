@@ -8,6 +8,6 @@ output:
 
 <!-- Remember, It can't be longer than 150 words! -->
 
-The lay or public summary is a simplified version of the abstract that explains the key goals and contributions of the research/scholarly work in terms that can be understood by the general public. it does not use technical terms and discipline-specific language. It must not exceed 150 words in length.
+High severity wildfire and post-fire flooding can dramatically alter landscapes and disrupt people's lives, sometimes in complex ways not readily visible to the broader public or to the naked eye. Wildfires in the western U.S., and elsewhere in the world, are becoming more destructive for communities and ecological systems. In response to the changes in how wildfires are affecting our communities and environments over roughly the last two decades and drawing on over two years of ethnographic fieldwork in a small mountain community in Colorado , this research explores how people make sense of dramatic changes to their lives and the landscapes in which they live. This dissertation contributes to understanding how wildfires have cascading social and ecological consequences and the mechanisms through which people come to make sense of disaster. Understanding narrative experiences and sensemaking processes can help society prepare for future wildfires and disasters.
 
 

@@ -4,6 +4,9 @@ output:
     toc : no
     keep_tex: no
     number_sections: yes
+link-citations: true
+linkReferences: true
+bibliography: ./References/introduction.bib
 ---
 
 <!-- This section is mandatory! -->
@@ -14,7 +17,7 @@ Situating my research in a wildfire-impacted landscape and my research questions
 
 I explore these questions through an anthropological exploration of the post-fire, unfurling material configurations in the landscapes of the rural, unincorporated upper Cache la Poudre Canyon (hereafter Poudre Canyon or Poudre). This mountainous community in northern Colorado was one among sixteen in Larimer County impacted by the 2020 Cameron Peak Fire (CPF) and subsequent catastrophic post-fire flooding and debris flows. My own family's historic home was destroyed in this wildfire, an experience which formed the basis for this dissertation. My research engages three groups of people in relation to the CPF: community members (primarily residing in the upper Poudre, with a handful living in the periphery); scientists who study different aspects of fire, most with study sites in the Poudre; and fire/emergency/watershed practitioners and managers. These are not discrete groups, as some people are both community members and practitioners or scientists. Through an ethnographic inquiry into how people make sense of rapid, large-scale landscape changes, my research contributes to an understanding of our relationship with social-ecological disruptions and uncertainty and how these (re)shape senses of belonging [@adamsAnticipationTechnoscienceLife2009; @nealeKnowingWildfireRisk2016].
 
-(Figure \@ref(fig:figureTitle)
+
 
 ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Cameron Peak and other fire perimeters with the Upper Poudre outlined in orange rectangle. Image from CalTopo.", fig.scap = "CPF Perimeter", out.extra=''}
 
@@ -123,7 +126,7 @@ The anthropologist Anna Tsing encourages other anthropologists to consider the "
 
 I was anchored to the new house the first summer of my fieldwork rather than primarily out in the community due to a number of factors. There was so much work yet to be done on the house for it to pass final inspection, and the more I contributed, the faster it would get done. Limiting my radius to the house and the land around it in the first few months of my fieldwork had the benefit of concentrating my attention on the animating flows, processes, and substances [@ingoldBeingAliveEssays2011] of a post-wildfire environment, which resulted in a rich embodied engagement with landscape. Following Tsing [@tsingWhenThingsWe2019] and Ingold [@ingoldBeingAliveEssays2011], I employ landscape both theoretically and empirically in my research by engaging directly with the materiality of the human and more than human lifeworlds and histories in the Poudre Canyon [@braceHumanGeographiesClimate2010, 289]. This approach manifested in four ways methodologically: first, in my experiences as an active observer and explorer of the post-fire terrain of my family's land and adjacent USFS lands throughout the upper Poudre; second, using my family's land as the basis for walking interviews with practitioners and scientists; third, conducting interviews in participants' homes, where properties had been variously impacted by fire and/or flood and recovery activities; and fourth, accompanying scientists in fieldwork on different tributaries throughout the Poudre River watershed. These different methodological engagements with landscape contributed to exploration of my research questions along with my own sensemaking. Along with those I interviewed, part of my own reckoning with wildfire, and associated processes like debris flows, has been in disassembling these phenomena as both mechanisms of destruction and as ecologically necessary and beneficial.
 
-(Figure \@ref(fig:figureTitle)
+
 
 ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="New debris flow deposits in a drainage near my family's house. Photo by author.", fig.scap = "New debris flow deposits", out.extra=''}
 
@@ -142,7 +145,7 @@ USGS geologists, along with a geologist from the Colorado Geological Survey, cam
 
 I shared, with my neighbors and interview participants, a continued engagement in sensemaking in relation to the transformed landscape of the Poudre Canyon. Post-wildfire, senses of place are reformulated based on an ongoing, more tenuous relationship with the environment.  Following transformative and sometimes destructive wildfires and flooding, sense of place is often disrupted [@schlosbergDisasterPlaceJustice2020]. One person lost her cabin that had been in their family for four decades during a catastrophic and deadly debris flow, which rendered the area where their cabin used to be unrecognizable. Talking about the difficulty of reconciling her relationship to place before and after the debris flow, she said "sometimes it's almost a strange feeling because I feel like I have two memories now. I still remember this place, from childhood, growing up, and even just a few years ago, and then having to reconcile that with, it doesn’t exist. It no longer exists" (November 2022).
 
-(Figure \@ref(fig:figureTitle)
+
 
 ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The house of a Black Hollow homeowner, on the left, prior to the debris flow, and the remains of his house in the river after the debris flow. Photos provided by Clyde Romero, Jr.", fig.scap = "Black Hollow house remains", out.extra=''}
 
@@ -155,7 +158,7 @@ include_graphics("../Images/blackHollow.png")
 
 My focus was continuously drawn to the weather, along with others in the Poudre, particularly those who live close to tributaries with potential for flooding. My neighbors and I exchanged information sources for emergency alerts and sent texts to each other tracking rain gauges on an interactive map which the county made available in 2023. How we interact with and experience the weather, which manifests within specific environmental contexts [@endfieldClimateCulturalHeritage2015], is part of the process of reconciliation with a landscape we are coming to know again. Weather is an agentive force [@dewitTranslatingClimateChange2018] in the context of the wildfire which burned through this canyon and in the ongoing flooding events different members of the community experience. Over the summers of 2022 and 2023, I became a compulsive observer of the western skies out the windows, wondering with trepidation what that day might bring. I am reminded, in my behavior, of the anthropologist Frida Hastrup's description of survivors in a tsunami-affected village in South India, who seemed "suspended in a matrix made of the presence of disaster and the absence of certainty" [@hastrupMaterializationsDisasterRecovering2010]. This hyperfocus on weather, in concert with muddying my boots exploring the terrain after a flooding event, helped me better understand experiences of risk and vulnerability in a dynamic, familiar-turned-unfamiliar landscape. My sensory engagement with this landscape undergoing rapid changes helped build a sense of intimacy with this new world, and the hazards associated with it, what I refer to as recalibration in Chapter 4.
 
-(Figure \@ref(fig:figureTitle)
+
 
 ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The sky looking west from my family's house in June 2023. Photo by author.", fig.scap = "Black Hollow house remains", out.extra=''}
 
@@ -202,7 +205,7 @@ kableExtra::kbl(
 
 Not only did researchers and scientists walk my family's land with me, I also joined some of them in their fieldwork and in some cases contributed to data collection. One example of the latter case, which is ongoing, is to collect monthly water samples from the creek which runs through my family's land which is then analyzed by biogeochemists at the USFS Rocky Mountain Research Station (RMRS) out of Fort Collins. Volunteer coordination is managed through a nonprofit called the Coalition for the Poudre River Watershed (CPRW). This research helps water supply managers in Fort Collins and Greeley on the Front Range prepare for future wildfire and water quality mitigation plans and also helps evaluate post-wildfire watershed treatment strategies.
 
-(Figure \@ref(fig:figureTitle)
+
 
 ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Taking a water sample from Sheep Creek for the RMRS in January 2023. Photo by Evan Stafford.", fig.scap = "Sheep Creek water sample", out.extra=''}
 
@@ -231,7 +234,7 @@ kableExtra::kbl(
   kableExtra::kable_styling(latex_options = "hold_position") # ensures the table isn't "floated" and pins it to the current location
 ```
 
-(Figure \@ref(fig:figureTitle)
+
 
 ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Field crew with RMRS taking various measurements at a presumed biogeochemial hotspot along Little Beaver Creek. Photo by author.", fig.scap = "Little Beaver Creek survey", out.extra=''}
 
@@ -244,7 +247,7 @@ include_graphics("../Images/LBC.png")
 
 On one of the days I accompanied scientists in their field research, I joined two fluvial geomorphologists &mdash; someone who studies the movement of rivers over time and how they shape landforms &mdash; who were conducting a watershed survey to determine what geomorphic factors contribute to watershed resiliency to wildfire. They collected empirical data about the tributary we walked from top to bottom, counting the number of channel jams &mdash; in-stream piles of wood &mdash; and floodplain jams &mdash; piles of wood deposited outside of the channel on the floodplain &mdash; as measured within a defined reach. A reach is a segment of stream defined by its characteristics. I learned that one of the ways that streams are resilient is in their complexity, conceptualized as the numbers of beads along a string [@wohlRiverBeadsConceptual2018]. A stream that is mostly string has less complexity than a stream with lots of beads, which may be areas of sinuosity, beaver dams, multiple channels, and other mechanisms that facilitate vertical and horizontal connectivity in a stream, such as log jams and piles of wood deposited on the floodplains. Floods or debris flows can also facilitate greater complexity and introduce beads into the system, at the same time that they can create longer strings by blowing out areas of greater complexity.
 
-(Figure \@ref(fig:figureTitle)
+
 
 ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Counting floodplain and channel jams on a watershed survey of Sheep Gulch. Photo by author.", fig.scap = "Sheep Creek survey", out.extra=''}
 
@@ -285,7 +288,7 @@ The social structure of the upper Poudre can be old fashioned, specifically in h
 
 In the Fall of 2022, I began regularly attending Ladies Tea. Most of the women brought craft projects to work on, and sometimes there were collective quilt projects, often led by the talented Jennifer. While she was evacuated from her home during the Cameron Peak Fire, living in a hotel room in Fort Collins, she created a quilt of a wildfire scene, a sky of billowy clouds of smoke over forested mountains on fire with the river coursing below.
 
-(Figure \@ref(fig:figureTitle)
+
 
 ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The Cameron Peak Fire represented on a quilt displayed in the Poudre Canyon Chapel during an annual community fair. Photo by author.", fig.scap = "Cameron Peak Fire quilt", out.extra=''}
 
@@ -312,7 +315,7 @@ One of them, whose cousins I used to play with as a child, was also among the fe
 
 I met other community members at their homes to conduct the interviews, which were often illuminating visits because I was able to see for myself how they had been affected by the CPF or were being impacted by ongoing flooding. One example of this was a hike to visit my neighbors, who own a home in a small cluster of eight cabins over the river where the county removed their bridge in August 2021, discussed in a previous section. In what remains a controversial act that is currently under litigation, the county Office of Emergency Management condemned and removed the bridge, effectively isolating residents from their homes on the other side of the river, including a couple in their 70s who lived there full time. This couple's children helped them build a kind of zipline, anchored on each side by rickety platforms on a steep, loose dirt slope. Another resident only comes up when this couple or their family will be there so she can be helped making it across on the zipline. The couple eventually had to relocate to another state.
 
-(Figure \@ref(fig:figureTitle)
+
 
 ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The homemade zipline stretching across the river fashioned by one of the families who used to live on the other side full time. Photo by author.", fig.scap = "Zipline", out.extra=''}
 
@@ -331,7 +334,7 @@ I joined the local, rural fire district as a volunteer firefighter for several r
 
 The district is 99 square miles, its boundary the length of nearly forty miles along the Poudre River and extending two miles wide in some areas. There is much more rural mountainous terrain outside the district whose residents do not have their own district, and the PCFPD is the first responding agency for this additional 150 square miles [@Us2024]. There are approximately thirty volunteers across four fire stations, two of them in the upper Poudre, one in the lower Poudre, and another outside of and above the canyon, reached by a steep, gravel road with switchbacks from the upper Poudre. Only some of the volunteers respond some of the time, and in the upper Poudre and adjacent area above, only eight respond consistently. Although the residential population of the canyon is quite low, it is a popular recreational area year round but especially in the fall and summer when people visit to fish, hunt, paddle, hike, and backpack in the national forest lands which make up 85% of the river corridor [@CachePoudreWild1990]. The PCFPD serves a much larger population than actually lives in the canyon. Though only 750-1,500 people live in the entire Poudre Canyon, it receives 500,000-800,000 visitors each year. In 2023, 75% of the calls were to assist non-residents [@PoudreCanyonFire2024]. The majority of calls to the PCFPD are either medical or vehicle accidents, not wildfires. During the time I have been a volunteer, there have only been three wildfires and three structure fires, out of nearly 200 calls. In addition to emergencies, PCFPD volunteers, including myself, also help with pile burning and wood chipping on private lands to help dispose of woody material called slash that poses a fire danger.
 
-(Figure \@ref(fig:figureTitle)
+
 
 ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Lighting burn piles at the Ben Delatour Boy Scout Ranch on January 21, 2023. Photo by author.", fig.scap = "Burn piles", out.extra=''}
 
@@ -376,8 +379,6 @@ Another situation that required transparency around collecting information was w
 
 In August 2023, I organized The Future of Forest Service Fuels Treatments Tour with the help of a Fire Management Planning Specialist with the Arapaho-Roosevelt National Forest &mdash; the name of the national forest in the Poudre Canyon and surrounding areas &mdash; a representative from The Ember Alliance, a nationwide nonprofit focused on community planning for wildfires; and the Larimer Conservation District, one of 74 conservation districts in Colorado. I later joined the Board of Directors of The Ember Alliance.
 
-(Figure \@ref(fig:figureTitle)
-
 ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The Future of Forest Service Fuels Treatment Tour. Photo by author.", fig.scap = "Fuels treatments tour", out.extra=''}
 
 # Call the image
@@ -403,89 +404,15 @@ In Chapter 4, I describe how community members, practitioners, and scientists go
 
 Finally, in Chapter 5, I reflect on my research questions and the findings highlighted in the previous three chapters and discuss how this dissertation contributes to the literatures on landscape, temporality, materiality, and disaster in which I situate my work. I write about the implications of this research project for policy and for helping society navigate extreme wildfire and its cascading impacts. I also discuss the limitations of my dissertation and make suggestions for further research.
 
-# References
+## References
 
-<!-- # ## Referencing figures -->
-<!-- #  -->
-<!-- # ### Basics -->
-<!-- #  -->
-<!-- # This text will render with a figure referenced (Figure \@ref(fig:figureTitle)). -->
-<!-- #  -->
-# ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="This is the long caption of the figure that will apear in the main text.", fig.scap = "This is the short title for the figure list", out.extra=''}
-# 
-# # Call the image
-# include_graphics("../Images/Professortocat.png")
+<!-- # References -->
+\section*{Bibliography}
+\addcontentsline{toc}{section}{Bibliography} 
 
-# Print the image
-# grid.raster(img)
-```
+<!-- Reset page config. For proper referencing  -->
+\noindent
+\leftskip=2em
+\parindent=-2em
 
-<!-- ### Text-references for figure captions -->
-
-<!-- You may need to use citations or special characters in a figure caption, which is not possible by writing the caption directly in the code chunk `fig.cap` option. Instead, you will need to use [in-text references](https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html#text-references). -->
-
-<!-- How to use in-text references: -->
-
-<!-- 1. in the `fig.cap` code chunk option, write `"(ref:TEXT-REFERENCE)"` -->
-<!-- 2. outside of code chunk (in the text), start a paragraph with `(ref:TEXT-REFERENCE) ...` then write your caption -->
-
-<!-- Note: "TEXT-REFERENCE" can be replace with whatever, I suggest something descriptive like "figureTitle-cap" -->
-
-<!-- Example -->
-
-# (ref:introfig1-cap) This caption was written with an in-text reference. See how I can use citations like this [@degoede2017] and **special** *characters* _!?@#, which normally would not be possible.
-# 
-# ```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="(ref:introfig1-cap)", fig.scap = "This is the short title for the figure list", out.extra=''}
-# 
-# # Call the image
-# include_graphics("../Images/Professortocat.png")
-
-# Print the image
-# grid.raster(img)
-```
-
-<!-- ## Tables -->
-
-<!-- Tables are best generated by using `kable` + `kableExtra` (Table \@ref(tab:IntroTable1)). These R packages allow for a lot of customization. I suggest saving your tables as `.csv` files and then loading them into R with `readr::read_csv`. -->
-
-<!-- Example -->
-
-<!-- this code chunk makes NA cells in the appear as blanks -->
-
-<!-- ```{r echo=FALSE, results='asis'} -->
-<!--     options(knitr.kable.NA = '') -->
-<!-- ``` -->
-
-<!-- \captionsetup{width=6.5in} <!-- makes table caption stays in margins --> -->
-
-<!-- This code chunk prints the table, many options for customization are available -->
-
-# ```{r IntroTable1, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
-# kableExtra::kbl(
-#   readr::read_csv(here::here('Tables', 'Introduction - Table 1.csv')),
-#   booktabs = TRUE,
-#   caption = 'Walking Conversations.') %>%
-#   kableExtra::kable_styling(full_width = TRUE) %>%  # table spans across left to right margins
-#   # kableExtra::footnote(
-#     symbol="Can add footnotes here.", 
-#     general = 'EOPET - Early Onset Preeclampsia.', # acronyms
-#     general_title = '') %>%
-  
-<!--   kableExtra::kable_styling(latex_options = "hold_position") # ensures the table isn't "floated" and pins it to the current location -->
-<!-- ``` -->
-
-# ```{r IntroTable2, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
-# kableExtra::kbl(
-#   readr::read_csv(here::here('Tables', 'Introduction - Table 2.csv')),
-#   booktabs = TRUE,
-#   caption = 'Go-alongs.') %>%
-#   kableExtra::kable_styling(full_width = TRUE) %>%  # table spans across left to right margins
-#   # kableExtra::footnote(
-#     symbol="Can add footnotes here.", 
-#     general = 'EOPET - Early Onset Preeclampsia.', # acronyms
-#     general_title = '') %>%
-  
-<!--   kableExtra::kable_styling(latex_options = "hold_position") # ensures the table isn't "floated" and pins it to the current location -->
-<!-- ``` -->
-
-See [2.5](https://bookdown.org/yihui/bookdown/tables.html) for details. Tables are referenced in the same way as figures, through the code chunk label. The title of the table is specified in the `caption` option under the `kableExtra::kbl` call.
+<div id="refs"></div>

@@ -8,10 +8,25 @@ output:
 
 <!-- This section is optional -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nulla malesuada, auctor arcu at, tempor nibh. Etiam ultricies dictum nisi eu vulputate. Suspendisse tempor aliquam efficitur. Curabitur eget orci ac purus hendrerit laoreet. Proin porta arcu nisl, a fermentum tellus suscipit et. Nulla mattis orci ac tortor facilisis venenatis. Phasellus a velit tristique, tincidunt purus id, aliquet tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed et turpis sed odio faucibus aliquam nec eget est.
+Mark
+Sara
+Andrew
+Tracey
+Poudre Canyon community
+PCFPD
 
-Phasellus ligula lacus, euismod posuere pretium sit amet, ornare condimentum nisl. Integer eu aliquet lectus, sit amet sagittis turpis. Etiam tempus bibendum nibh, eu accumsan sapien. Suspendisse tincidunt sit amet nisi vel consectetur. Donec vitae odio elit. Quisque dignissim risus feugiat nunc tempor hendrerit. Fusce consequat lectus eget felis tempus, et lobortis ante ornare. Etiam euismod quam eu scelerisque mattis. Praesent nisi lectus, tincidunt nec sapien ac, fermentum pellentesque orci.
+One of the mysteries of graduate school is the persistent experience of feeling as though one is the first person to have ever navigated the numerous requirements and procedures in the process of obtaining a PhD. I would have been entirely lost without the time, feedback, expertise, and documentation provided by my fellow graduate students. The prolonged interruption of the COVID-19 pandemic six months into my PhD program, which prevented in-person interactions for some time, did not diminish the support and guidance provided by my colleagues, to whom I owe a great debt of gratitude. Thank you to Stephen Chignell, Byron Arthur Clark, Raphaël Deberdt, Anudeep Dewan, Eric Simons, Patrick Dowd, Jonathan Eaton, Vicki Sear, Lara Şarlak, Eric Simons, Kawin Tiansuwan, Bendi Tso, and Caitlyn Yates.
 
-Praesent semper faucibus mauris, in suscipit quam mattis et. Curabitur malesuada placerat magna. Morbi eget bibendum purus, sollicitudin faucibus enim. Donec condimentum arcu quis eros placerat sodales. Nunc non elit sodales, blandit risus vel, mattis odio. Nullam in aliquet ligula, ut viverra enim. Aliquam viverra justo non neque consequat dictum. Nunc tempor arcu sem, non blandit nisl dapibus eu. Donec vitae pretium magna. Nam risus augue, ultricies ac sollicitudin ut, rutrum eleifend purus. Donec lorem turpis, lacinia quis pretium non, sollicitudin eu enim. Curabitur eu eros congue, vehicula ante vitae, semper elit.
+I am grateful for the financial support provided by the Social Sciences and Humanities Research Council of Canada through the Vanier Canada Graduate Scholarship and the Explore Research Assistantship Grant; P.E.O. International; the Social Science Research Council of the United States through the Rapid-Response Grants on Covid-19; the UBC Public Scholars Initiative and Climate Emergency Fund; the UBC Four-Year Fellowship; the Esri Canada GIS Scholarship; Dr. Marianne Ignace, and the Anthropology Graduate Studies Committee.
 
-Fusce feugiat consectetur erat, nec venenatis massa malesuada nec. Curabitur varius convallis sem eget efficitur. Morbi congue odio non turpis cursus efficitur. In hac habitasse platea dictumst. Cras porttitor porttitor nibh id tempor. Sed bibendum quam nisl, sed congue lectus condimentum et. Curabitur nec mauris sapien. Morbi dictum ex sodales turpis ornare mattis. Suspendisse potenti. Pellentesque commodo lorem purus, id mattis nibh efficitur et. Cras tempus rutrum interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris placerat ligula eu nisl sagittis consequat. Curabitur placerat, elit quis cursus tempor, mauris augue posuere metus, ut elementum orci diam maximus lectus. Proin sed sodales nulla. Maecenas non sapien nec mauris facilisis fringilla.
+I deeply appreciate the engaging and financially supportive employment, research, and mapping opportunities provided by numerous individuals and organizations during my time at UBC, including by Dr. Mark Turin, Dr. Andrew Martindale, Dr. Leslie Robertson, the UBC Research Commons, the Community Engaged Documentation and Research (CEDaR) cluster, the Environmental Justice Co-Lab, Dr. Daniel Heath Justice, Dr. Bendi Tso, and Dr. Marnyi Gyatso.
+
+I am grateful for the diverse research engagements throughout my PhD (many facilitated by my supervisor Dr. Mark Turin) and the opportunity to work alongside and learn from scholars including Dr. Sienna Craig, Dr. Daniel Kaufman, Dr. Ross Perlin, Nawang Tsering Gurung, and Jag Bahadur Budha.
+
+My heartfelt thanks to Dr. Pasang Sherpa, Dr. Serbulent Turan, P.E.O. Chapter D of Whitefish, and Taylor Greenup for your engagement with and support of my work.
+
+My deepest gratitude to Gyata Sandoval for creating and providing such a beautiful refuge for Wilbur and me, and for your kindness and generosity in helping me weather the pandemic and graduate school in general. Thank you to Raphael Sandoval, Camila Fernandez, and Hannah Avenant for your kindness toward and care of Wilbur. 
+
+ERASE And to Marnyi Gyatso, Rachelle Delaney, Kailey Rocker, Dovana Singh, Anna Lmr, and Colleen Hillis for meals, support, games, walks, and rides.
+
+My success at UBC would have been impossible without the careful coordination and support of the staff in the Department of Anthropology facilitating graduate students in overcoming all the administrative hurdles we must navigate. Thank you, too, to the maintenance and cleaning staff, performing critical and often invisible work that makes it possible for us to occupy the spaces we do.
