@@ -35,6 +35,7 @@ urlcolor: black
 
 knitr::opts_chunk$set(echo = TRUE)
 options(knitr.duplicate.label = 'allow')
+options(knitr.table.format = "latex")
 
 
 # These libraries are only needed for examples in the introduction 

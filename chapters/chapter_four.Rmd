@@ -22,6 +22,45 @@ The creek had grown exponentially in size and volume and created a new channel. 
 
 Wildfire can change the hydrological conditions of a watershed in ways that make it more susceptible to flooding or debris flows, in what is known as a cascading hazard [@hydeUncertaintiesPredictingDebris2016]. Based on my research in a community affected by the CPF, I show how cascading hazards have cascading consequences for people's lives and social structures writ large. I argue that drawing on existing ecological frameworks of the wildfire-flood disturbance cascade to interrogate the wildfire-social disturbance cascade enables the possibility of responding to wildfire in a way that explicitly links social-ecological systems. I propose that cross-disciplinary teams examine post-fire social-ecological conditions and conduct assessments over longer timescales to help coordinate long-term recovery efforts in response to cascading social and ecological consequences.
 
+```{r echo=FALSE, results='asis'}
+    options(knitr.kable.NA = '')
+```
+
+\captionsetup{width=6.5in} <!-- makes table caption stays in margins -->
+
+<!-- This code chunk prints the table, many options for customization are available -->
+
+```{r ch4Tbl1, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+kableExtra::kbl(
+  readr::read_csv(here::here('Tables', 'ch4Table1.csv')),
+  booktabs = TRUE,
+  caption = 'Scientist roles and jurisdictions.') %>%
+  kableExtra::kable_styling(full_width = TRUE) %>%  # table spans across left to right margins
+  
+  
+  kableExtra::kable_styling(latex_options = "hold_position") # ensures the table isn't "floated" and pins it to the current location
+```
+
+
+```{r echo=FALSE, results='asis'}
+    options(knitr.kable.NA = '')
+```
+
+\captionsetup{width=6.5in} <!-- makes table caption stays in margins -->
+
+<!-- This code chunk prints the table, many options for customization are available -->
+
+```{r ch4Tbl2, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+kableExtra::kbl(
+  readr::read_csv(here::here('Tables', 'ch4Table2.csv')),
+  booktabs = TRUE,
+  caption = 'Practitioner roles and jurisdictions.') %>%
+  kableExtra::kable_styling(full_width = TRUE) %>%  # table spans across left to right margins
+  
+  
+  kableExtra::kable_styling(latex_options = "hold_position") # ensures the table isn't "floated" and pins it to the current location
+```
+
 In geology, cascading hazards refer to a sequencing of processes, beginning with a primary hazard which precipitates the formation of additional hazards [@sharmaIncreasingRiskCascading2023]. This is also sometimes called a disturbance cascade [@nakamuraDisturbanceRegimesStream2000]. One example of an ecological disturbance with additional hazard potential, and the one germane to the subject of this paper, is a wildfire which leads to post-wildfire flooding and debris flows. In 2020, a year of record-breaking wildfire activity across the western United States [@rodmanHistoric2020Fire2022], the CPF funneled through the upper Poudre Canyon in northern Colorado on two days of extreme fire spread. This was followed by extensive flooding and debris flows in the summers of 2021, 2022, and 2023, including at Black Hollow.
 
 The physical damage wrought by these intersecting disasters is well documented, and has been quantified in the number of structures destroyed, acres burned, or occurrence of debris flows. The CPF is Colorado's largest wildfire in state history encompassing 208,912 acres [@WFIGSInteragencyFire2023], which destroyed 492 structures across sixteen communities and three watersheds, including the Poudre, Big Thompson, and Laramie watersheds [@coalitionforthepoudreriverwatershedCameronPeakFire]. These kinds of statistics appear in research papers [@rodmanHistoric2020Fire2022], on state [@HistoricalWildfireInformation2024] and nonprofit websites [@coalitionforthepoudreriverwatershedCameronPeakFire], and in newspaper stories [@larsenCameronPeakFire2020; @DeadlyFlashFlood2021]. As such, numbers become the main way impacts from these hazards are narrated and understood by both the public and government officials. These quantifiable categorizations are typical of most disasters, characterizing them as 'temporary aberrations from normal conditions' [@fiskeSlowOnsetDisasterClimate2019, p. 139], the idea of which shapes frameworks of disaster response procedures in the U.S. Information about emergency response and recovery is similarly quantitatively understood and measured by, for example, acres burned at high severity, inventories of fish species at risk in burned areas [@fairchildFinalFisheriesSpecialist2020], or roads most vulnerable to flooding impacts [@larimercountyofficeofemergencymanagementCameronPeakFire2021]. These statistics provide critical information which can be measured against other wildfires and flooding events and offer a sense of both the scale and the number of people or communities who were or are exposed to risk.

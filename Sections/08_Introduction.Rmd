@@ -171,17 +171,17 @@ I walked my family's land with a number of scientists and practitioners, outline
 
 <!-- This code chunk prints the table, many options for customization are available -->
 
-
 ```{r IntroTable1, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
-options(knitr.table.format = "pipe")
 kableExtra::kbl(
-  readr::read_csv(here::here('Tables', 'IntroductionTable1.csv')), "simple",
+  readr::read_csv(here::here('Tables', 'IntroductionTable1.csv')),
   booktabs = TRUE,
-  caption = "Walking Conversations.")
-kable_styling(('IntroductionTable1.csv'), full_width = TRUE, latex_options = "hold_position") 
-# ensures the table isn't "floated" and pins it to the current location
-# full_width = TRUE means table spans across left to right margins
+  caption = 'Walking conversations.') %>%
+  kableExtra::kable_styling(full_width = TRUE) %>%  # table spans across left to right margins
+  
+  
+  kableExtra::kable_styling(latex_options = "hold_position") # ensures the table isn't "floated" and pins it to the current location
 ```
+
 
 Not only did researchers and scientists walk my family's land with me, I also joined some of them in their fieldwork and in some cases contributed to data collection. One example of the latter case, which is ongoing, is to collect monthly water samples from the creek which runs through my family's land which is then analyzed by biogeochemists at the USFS Rocky Mountain Research Station (RMRS) out of Fort Collins. Volunteer coordination is managed through a nonprofit called the Coalition for the Poudre River Watershed (CPRW). This research helps water supply managers in Fort Collins and Greeley on the Front Range prepare for future wildfire and water quality mitigation plans and also helps evaluate post-wildfire watershed treatment strategies.
 
