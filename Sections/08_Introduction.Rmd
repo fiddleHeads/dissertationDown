@@ -18,14 +18,10 @@ Situating my research in a wildfire-impacted landscape and my research questions
 I explore these questions through an anthropological exploration of the post-fire, unfurling material configurations in the landscapes of the rural, unincorporated upper Cache la Poudre Canyon (hereafter Poudre Canyon or Poudre). This mountainous community in northern Colorado was one among sixteen in Larimer County impacted by the 2020 Cameron Peak Fire (CPF) and subsequent catastrophic post-fire flooding and debris flows. My own family's historic home was destroyed in this wildfire, an experience which formed the basis for this dissertation. My research engages three groups of people in relation to the CPF: community members (primarily residing in the upper Poudre, with a handful living in the periphery); scientists who study different aspects of fire, most with study sites in the Poudre; and fire/emergency/watershed practitioners and managers. These are not discrete groups, as some people are both community members and practitioners or scientists. Through an ethnographic inquiry into how people make sense of rapid, large-scale landscape changes, my research contributes to an understanding of our relationship with social-ecological disruptions and uncertainty and how these (re)shape senses of belonging [@adamsAnticipationTechnoscienceLife2009; @nealeKnowingWildfireRisk2016].
 
 
-
-```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Cameron Peak and other fire perimeters with the Upper Poudre outlined in orange rectangle. Image from CalTopo.", fig.scap = "CPF Perimeter", out.extra=''}
+```{r figureTitle1, eval=True, echo=T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Cameron Peak and other fire perimeters with the Upper Poudre outlined in orange rectangle. Image from CalTopo.", fig.scap = "CPF Perimeter", out.extra=''}
 
 # Call the image
-include_graphics("../Images/upperPoudreFirePerimeter.png")
-
-# Print the image
-# grid.raster(img)
+knitr::include_graphics("../Images/upperPoudreFirePerimeter.png")
 ```
 
 I make three main arguments in this dissertation rooted in my research findings and outlined in separate chapters structured as journal articles. First, I propose that, in mountain watersheds, we can anticipate social consequences resulting from wildfire by examining the ecological disturbance cascade [@nakamuraDisturbanceRegimesStream2000] it initiates. This opens up avenues to respond to wildfire and post-fire recovery rooted in the reality of experiences which are simultaneously socially and ecologically mediated. Second, I argue that state-sponsored efforts to cultivate best practices for living with wildfire risk should be more geographically and socially expansive, to acknowledge that contending with wildfire and its associated hazards of smoke and flooding is a society-wide challenge, not just for those living in fire-adapted landscapes. Third, I suggest that people experience a recalibration of relationship to place from engaging in processes of sensemaking in response to extreme wildfires and resultant landscape changes. Recalibration which is oriented toward an ecological understanding of wildfire and post-fire flooding can help people cope with different kinds of loss caused by wildfire.
@@ -127,14 +123,10 @@ The anthropologist Anna Tsing encourages other anthropologists to consider the "
 I was anchored to the new house the first summer of my fieldwork rather than primarily out in the community due to a number of factors. There was so much work yet to be done on the house for it to pass final inspection, and the more I contributed, the faster it would get done. Limiting my radius to the house and the land around it in the first few months of my fieldwork had the benefit of concentrating my attention on the animating flows, processes, and substances [@ingoldBeingAliveEssays2011] of a post-wildfire environment, which resulted in a rich embodied engagement with landscape. Following Tsing [@tsingWhenThingsWe2019] and Ingold [@ingoldBeingAliveEssays2011], I employ landscape both theoretically and empirically in my research by engaging directly with the materiality of the human and more than human lifeworlds and histories in the Poudre Canyon [@braceHumanGeographiesClimate2010, 289]. This approach manifested in four ways methodologically: first, in my experiences as an active observer and explorer of the post-fire terrain of my family's land and adjacent USFS lands throughout the upper Poudre; second, using my family's land as the basis for walking interviews with practitioners and scientists; third, conducting interviews in participants' homes, where properties had been variously impacted by fire and/or flood and recovery activities; and fourth, accompanying scientists in fieldwork on different tributaries throughout the Poudre River watershed. These different methodological engagements with landscape contributed to exploration of my research questions along with my own sensemaking. Along with those I interviewed, part of my own reckoning with wildfire, and associated processes like debris flows, has been in disassembling these phenomena as both mechanisms of destruction and as ecologically necessary and beneficial.
 
 
-
-```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="New debris flow deposits in a drainage near my family's house. Photo by author.", fig.scap = "New debris flow deposits", out.extra=''}
+```{r figureTitle2, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="New debris flow deposits in a drainage near my family's house. Photo by author.", fig.scap = "New debris flow deposits", out.extra=''}
 
 # Call the image
-include_graphics("../Images/debrisFlow.png")
-
-# Print the image
-# grid.raster(img)
+knitr::include_graphics("../Images/debrisFlow.png")
 ```
 
 On four different occasions during the summer of 2022, I was witness to extraordinary flooding events, as if the land had been cleaved open to let loose a deluge of water and sediment and boulders (see Figure 2). Most of the channels in the Poudre Canyon &mdash; a channel is a defined path created by the flow of water and sediment &mdash; formed during the last Ice Age, about 18,000 years ago, according to a fluvial geomorphologist who designed post-fire flood mitigation structures in the Poudre. Although in my lifetime I had never observed any of the channels that come off the steep mountainside adjacent to our land to carry water in them, the existence of channels indicates the flow of water in geological time and the certainty of future flow. Whether channels flood with water and sediment or with debris, resulting in a debris flow, depends on how much debris has accumulated in the channel over hundreds or thousands of years through the process of erosion, aided by gravity, enacting its "primary agency" [@gordilloGravityPrimacyTerrain2020] on the terrain. In the days following each flooding event in the summer of 2022, I hiked to every channel and sometimes to their origins up near the top of the ridgeline, to document what had tumbled down the mountain. I took hundreds of photos, organized these in photo albums, and labeled each one. Later, this documentation became useful to a couple of geologists at the United States Geological Survey (USGS) who study landslides and debris flows. They were able to use my photos to verify debris flows had occurred on a particular date and cross-reference these with data from the nearest rain gauge to develop a metric of debris flow susceptibility.
@@ -146,27 +138,19 @@ USGS geologists, along with a geologist from the Colorado Geological Survey, cam
 I shared, with my neighbors and interview participants, a continued engagement in sensemaking in relation to the transformed landscape of the Poudre Canyon. Post-wildfire, senses of place are reformulated based on an ongoing, more tenuous relationship with the environment.  Following transformative and sometimes destructive wildfires and flooding, sense of place is often disrupted [@schlosbergDisasterPlaceJustice2020]. One person lost her cabin that had been in their family for four decades during a catastrophic and deadly debris flow, which rendered the area where their cabin used to be unrecognizable. Talking about the difficulty of reconciling her relationship to place before and after the debris flow, she said "sometimes it's almost a strange feeling because I feel like I have two memories now. I still remember this place, from childhood, growing up, and even just a few years ago, and then having to reconcile that with, it doesn’t exist. It no longer exists" (November 2022).
 
 
-
-```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The house of a Black Hollow homeowner, on the left, prior to the debris flow, and the remains of his house in the river after the debris flow. Photos provided by Clyde Romero, Jr.", fig.scap = "Black Hollow house remains", out.extra=''}
+```{r figureTitle3, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The house of a Black Hollow homeowner, on the left, prior to the debris flow, and the remains of his house in the river after the debris flow. Photos provided by Clyde Romero, Jr.", fig.scap = "Black Hollow house remains", out.extra=''}
 
 # Call the image
-include_graphics("../Images/blackHollow.png")
-
-# Print the image
-#grid.raster(img)
+knitr::include_graphics("../Images/blackHollow.png")
 ```
 
 My focus was continuously drawn to the weather, along with others in the Poudre, particularly those who live close to tributaries with potential for flooding. My neighbors and I exchanged information sources for emergency alerts and sent texts to each other tracking rain gauges on an interactive map which the county made available in 2023. How we interact with and experience the weather, which manifests within specific environmental contexts [@endfieldClimateCulturalHeritage2015], is part of the process of reconciliation with a landscape we are coming to know again. Weather is an agentive force [@dewitTranslatingClimateChange2018] in the context of the wildfire which burned through this canyon and in the ongoing flooding events different members of the community experience. Over the summers of 2022 and 2023, I became a compulsive observer of the western skies out the windows, wondering with trepidation what that day might bring. I am reminded, in my behavior, of the anthropologist Frida Hastrup's description of survivors in a tsunami-affected village in South India, who seemed "suspended in a matrix made of the presence of disaster and the absence of certainty" [@hastrupMaterializationsDisasterRecovering2010]. This hyperfocus on weather, in concert with muddying my boots exploring the terrain after a flooding event, helped me better understand experiences of risk and vulnerability in a dynamic, familiar-turned-unfamiliar landscape. My sensory engagement with this landscape undergoing rapid changes helped build a sense of intimacy with this new world, and the hazards associated with it, what I refer to as recalibration in Chapter 4.
 
 
-
-```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The sky looking west from my family's house in June 2023. Photo by author.", fig.scap = "Black Hollow house remains", out.extra=''}
+```{r figureTitle4, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The sky looking west from my family's house in June 2023. Photo by author.", fig.scap = "Sky looking west", out.extra=''}
 
 # Call the image
-include_graphics("../Images/clouds.png")
-
-# Print the image
-# grid.raster(img)
+knitr::include_graphics("../Images/clouds.png")
 ```
 
 My approach to being in, on, and around the landscapes of the Poudre were informed by the way I affectively encountered the world, which is simultaneously experiential, classificatory, and emotional. Walking in areas of the CPF burn area with different subject matter experts, whether fire managers or fluvial geomorphologists, provided me with fresh perspectives on forest ecologies, on ecological functions of flooding, and contemporary forest management practices. My deeply situated and embodied landscape-based approach was also methodologically important for engaging with the materiality and temporality of wildfire and the cascading hazards affecting ecological processes and people's lives.
@@ -183,79 +167,59 @@ I walked my family's land with a number of scientists and practitioners, outline
     options(knitr.kable.NA = '')
 ```
 
-(Table \@ref(table:tableTitle)
-
 \captionsetup{width=6.5in} <!-- makes table caption stays in margins -->
 
 <!-- This code chunk prints the table, many options for customization are available -->
 
+
 ```{r IntroTable1, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+options(knitr.table.format = "pipe")
 kableExtra::kbl(
-  readr::read_csv(here::here('Tables', 'Introduction - Table 1.csv')),
+  readr::read_csv(here::here('Tables', 'IntroductionTable1.csv')), "simple",
   booktabs = TRUE,
-  caption = 'Walking Conversations.') %>%
-  kableExtra::kable_styling(full_width = TRUE) %>%  # table spans across left to right margins
-  # kableExtra::footnote(
-    # symbol="Can add footnotes here.", 
-    # general = 'EOPET - Early Onset Preeclampsia.', # acronyms
-    # general_title = '') %>%
-  
-  kableExtra::kable_styling(latex_options = "hold_position") # ensures the table isn't "floated" and pins it to the current location
+  caption = "Walking Conversations.")
+kable_styling(('IntroductionTable1.csv'), full_width = TRUE, latex_options = "hold_position") 
+# ensures the table isn't "floated" and pins it to the current location
+# full_width = TRUE means table spans across left to right margins
 ```
 
 Not only did researchers and scientists walk my family's land with me, I also joined some of them in their fieldwork and in some cases contributed to data collection. One example of the latter case, which is ongoing, is to collect monthly water samples from the creek which runs through my family's land which is then analyzed by biogeochemists at the USFS Rocky Mountain Research Station (RMRS) out of Fort Collins. Volunteer coordination is managed through a nonprofit called the Coalition for the Poudre River Watershed (CPRW). This research helps water supply managers in Fort Collins and Greeley on the Front Range prepare for future wildfire and water quality mitigation plans and also helps evaluate post-wildfire watershed treatment strategies.
 
 
-
-```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Taking a water sample from Sheep Creek for the RMRS in January 2023. Photo by Evan Stafford.", fig.scap = "Sheep Creek water sample", out.extra=''}
+```{r figureTitle5, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Taking a water sample from Sheep Creek for the RMRS in January 2023. Photo by Evan Stafford.", fig.scap = "Sheep Creek water sample", out.extra=''}
 
 # Call the image
-include_graphics("../Images/waterSample.png")
-
-# Print the image
-# grid.raster(img)
+knitr::include_graphics("../Images/waterSample.png")
 ```
 
-On multiple other occasions, I accompanied field crews to collect data for different scientific research endeavors. These trips were opportunities for me as an ethnographer to engage in "embodied learning" [@maslenNarrativePracticeStorytelling2022], what is referred to as the go-along method [@carpianoComeTakeWalk2009; @kusenbachStreetPhenomenologyGoAlong2003]. This method "engages the environment" by "placing researchers in the mobile habitats of their informants, thus facilitating access to their experiences and practices as they unfold in real time and space" [@kusenbachStreetPhenomenologyGoAlong2003: 478]. My trips into the field with various researchers helped me understand how subject matter experts come to see and know their subjects as a result of epistemological knowledge along with tactile engagement with the environment they study [@oreillySensingIceField2016]. How researchers moved through the landscape depended upon their field of knowledge, the data they collected, and what they were conditioned to notice through their own disciplinary training combined with iterative sensory engagement with their subject matter over time [@oreillySensingIceField2016]. In Table 2, I list the role of the lead researcher and how many crew members in parentheses, followed by the organization they work for, and their research focus on the day I accompanied them.
+On multiple other occasions, I accompanied field crews to collect data for different scientific research endeavors. These trips were opportunities for me as an ethnographer to engage in "embodied learning" [@maslenNarrativePracticeStorytelling2022], what is referred to as the go-along method [@carpianoComeTakeWalk2009; @kusenbachStreetPhenomenologyGoAlong2003]. This method "engages the environment" by "placing researchers in the mobile habitats of their informants, thus facilitating access to their experiences and practices as they unfold in real time and space" [@kusenbachStreetPhenomenologyGoAlong2003: 478]. My trips into the field with various researchers helped me understand how subject matter experts come to see and know their subjects as a result of epistemological knowledge along with tactile engagement with the environment they study [@oreillySensingIceField2016]. How researchers moved through the landscape depended upon their field of knowledge, the data they collected, and what they were conditioned to notice through their own disciplinary training combined with iterative sensory engagement with their subject matter over time [@oreillySensingIceField2016]. In Table \@ref(table:IntroTable2), I list the role of the lead researcher and how many crew members in parentheses, followed by the organization they work for, and their research focus on the day I accompanied them.
 
-(Table \@ref(table:tableTitle)
+
 
 ```{r IntroTable2, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 kableExtra::kbl(
-  readr::read_csv(here::here('Tables', 'Introduction - Table 2.csv')),
+  readr::read_csv(here::here('Tables', 'IntroductionTable2.csv')),
   booktabs = TRUE,
   caption = 'Go-alongs.') %>%
   kableExtra::kable_styling(full_width = TRUE) %>%  # table spans across left to right margins
-  # kableExtra::footnote(
-    # symbol="Can add footnotes here.", 
-    # general = 'EOPET - Early Onset Preeclampsia.', # acronyms
-    # general_title = '') %>%
+  
   
   kableExtra::kable_styling(latex_options = "hold_position") # ensures the table isn't "floated" and pins it to the current location
 ```
 
 
-
-```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Field crew with RMRS taking various measurements at a presumed biogeochemial hotspot along Little Beaver Creek. Photo by author.", fig.scap = "Little Beaver Creek survey", out.extra=''}
+```{r figureTitle6, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Field crew with RMRS taking various measurements at a presumed biogeochemial hotspot along Little Beaver Creek. Photo by author.", fig.scap = "Little Beaver Creek survey", out.extra=''}
 
 # Call the image
-include_graphics("../Images/LBC.png")
-
-# Print the image
-# grid.raster(img)
+knitr::include_graphics("../Images/LBC.png")
 ```
 
 On one of the days I accompanied scientists in their field research, I joined two fluvial geomorphologists &mdash; someone who studies the movement of rivers over time and how they shape landforms &mdash; who were conducting a watershed survey to determine what geomorphic factors contribute to watershed resiliency to wildfire. They collected empirical data about the tributary we walked from top to bottom, counting the number of channel jams &mdash; in-stream piles of wood &mdash; and floodplain jams &mdash; piles of wood deposited outside of the channel on the floodplain &mdash; as measured within a defined reach. A reach is a segment of stream defined by its characteristics. I learned that one of the ways that streams are resilient is in their complexity, conceptualized as the numbers of beads along a string [@wohlRiverBeadsConceptual2018]. A stream that is mostly string has less complexity than a stream with lots of beads, which may be areas of sinuosity, beaver dams, multiple channels, and other mechanisms that facilitate vertical and horizontal connectivity in a stream, such as log jams and piles of wood deposited on the floodplains. Floods or debris flows can also facilitate greater complexity and introduce beads into the system, at the same time that they can create longer strings by blowing out areas of greater complexity.
 
-
-
-```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Counting floodplain and channel jams on a watershed survey of Sheep Gulch. Photo by author.", fig.scap = "Sheep Creek survey", out.extra=''}
+```{r figureTitle7, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Counting floodplain and channel jams on a watershed survey of Sheep Gulch. Photo by author.", fig.scap = "Sheep Creek survey", out.extra=''}
 
 # Call the image
-include_graphics("../Images/sheepGulch.png")
-
-# Print the image
-# grid.raster(img)
+knitr::include_graphics("../Images/sheepGulch.png")
 ```
 
 Part of my process of knowing wildfire and its ecological linkages is facilitated by accompanying people like the fluvial geomorphologists, moving across a landscape or through a waterway paying attention to things I previously did not know how to ascertain. "To physically move through land, by these various means, is also to travel through time and connect with the past. In other words, landscape binds up the past and present, and variously structures (pre-)history and holds knowledge" [@evansGroundingKnowledgeWalking2009: 194]. Understanding the ecologically beneficial aspects of wildfire and flooding &mdash; which include benefits for human lives &mdash; and contextualizing these processes within their own timescales are two different processes of learning to see. They also happen successively. The wildfire sweeps across the land, transforming it in its wake. Long before one becomes familiar with this landscape altered by fire, it is transfigured yet again by flooding, in entirely new and devastating ways, at least for human lives and the built environment. As human beings with memories and experiences situated in a particular kind of landscape unscathed by a wildfire the scale of Cameron Peak Fire, it takes time to become situated again. For some, this adjustment never happens. One woman who used to live in the Upper Poudre as an adult and whose family sold their cabin in 2023, in the family since the 1960s, no longer considered the canyon beautiful after the burn, one of the ways she reconciled selling their family home.
@@ -289,14 +253,10 @@ The social structure of the upper Poudre can be old fashioned, specifically in h
 In the Fall of 2022, I began regularly attending Ladies Tea. Most of the women brought craft projects to work on, and sometimes there were collective quilt projects, often led by the talented Jennifer. While she was evacuated from her home during the Cameron Peak Fire, living in a hotel room in Fort Collins, she created a quilt of a wildfire scene, a sky of billowy clouds of smoke over forested mountains on fire with the river coursing below.
 
 
-
-```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The Cameron Peak Fire represented on a quilt displayed in the Poudre Canyon Chapel during an annual community fair. Photo by author.", fig.scap = "Cameron Peak Fire quilt", out.extra=''}
+```{r figureTitle8, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The Cameron Peak Fire represented on a quilt displayed in the Poudre Canyon Chapel during an annual community fair. Photo by author.", fig.scap = "Cameron Peak Fire quilt", out.extra=''}
 
 # Call the image
-include_graphics("../Images/quilt.png")
-
-# Print the image
-# grid.raster(img)
+knitr::include_graphics("../Images/quilt.png")
 ```
 
 At Ladies Tea, conversation would sometimes drift toward talking about the wildfire or challenges with flooding people may have been experiencing. The Cameron Peak Fire, like 84% of wildfires in the U.S. [@balchHumanstartedWildfiresExpand2017], was likely human-started, but to date nobody has been held liable. This lends itself to a sense of uneasiness among Poudre Canyon community members about the ever present possibility of wildfires being started by careless people. One passage in my fieldnotes from October 2022 reads: "I went to Ladies Tea today, where there was a flurry of activity. Jennifer was sewing pieces on a little machine, and Marsha was helping her. Mindy had brought her earrings she makes out of buttons; Cheryl was knitting (crocheting?) Christmas stockings; Belinda was working on embroidery, as was Beverly. Paige had brought sock puppets she'd made. Rachel was working on something I couldn't make out, and Simone and I weren't working on anything. A man who nobody knew came through the doors and asked if the fire station was closed. He had seen smoke up Pingree Hill and wanted to report it. Paige called her husband, who is with the fire district, and he took a fire engine out to investigate. We speculated whether it might be a prescribed burn or from a campground, and Beverly and Rachel said they didn't want any kind of fire nearby. Beverly said she thinks nobody should be allowed to have campfires anymore, and Belinda said people should have to go through training to have campfires. Simone said her daughter is the same way, thinks nobody should have campfires, and becomes anxious whenever she sees people having campfires. I doubt anyone would have felt as strongly before the Cameron Peak Fire." Conversations about wildfire and flooding permeated all social spaces, often triggered by the prospect of danger, as in this case, spurring people to discuss their affective associations with risk.
@@ -316,14 +276,10 @@ One of them, whose cousins I used to play with as a child, was also among the fe
 I met other community members at their homes to conduct the interviews, which were often illuminating visits because I was able to see for myself how they had been affected by the CPF or were being impacted by ongoing flooding. One example of this was a hike to visit my neighbors, who own a home in a small cluster of eight cabins over the river where the county removed their bridge in August 2021, discussed in a previous section. In what remains a controversial act that is currently under litigation, the county Office of Emergency Management condemned and removed the bridge, effectively isolating residents from their homes on the other side of the river, including a couple in their 70s who lived there full time. This couple's children helped them build a kind of zipline, anchored on each side by rickety platforms on a steep, loose dirt slope. Another resident only comes up when this couple or their family will be there so she can be helped making it across on the zipline. The couple eventually had to relocate to another state.
 
 
-
-```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The homemade zipline stretching across the river fashioned by one of the families who used to live on the other side full time. Photo by author.", fig.scap = "Zipline", out.extra=''}
+```{r figureTitle9, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The homemade zipline stretching across the river fashioned by one of the families who used to live on the other side full time. Photo by author.", fig.scap = "Zipline", out.extra=''}
 
 # Call the image
-include_graphics("../Images/zipline.png")
-
-# Print the image
-# grid.raster(img)
+knitr::include_graphics("../Images/zipline.png")
 ```
 
 Two other families drive over the bridge shared between my family and our two neighbors. They park just on the other side and hike along a rough trail along the river on our land to reach their cabin. Depending on pace and agility, it can take anywhere from fifteen minutes to a half hour, scrambling over two scree fields with large, loose boulders. This was how I got to their cabin when I interviewed them. The majority of homeowners are not physically capable of doing this hike, and some of them have never been able to return to their cabins since their bridge was demolished. When I asked a county official involved in the decision to remove the bridge about introduced public safety hazards to homeowners as a result of removing the bridge, she responded that there wasn't a public safety concern because there were trails to get to the cabins. There is one trail, and not only are most homeowners physically unable to manage it, there are also a limited number of PCFPD volunteers who would be able to make it over the trail. It absolutely increases emergency response time, and it would be logistically complex to have to extract somebody who was physically incapacitated, requiring many hours and the use of the Larimer County Dive Rescue and Search and Rescue, all volunteer teams comprising individuals living primarily in Fort Collins or nearby towns. My own scramble over the rocks for the interview and the hike back out in the waning light of dusk was an embodied experience of the reality of these homeowners, augmented by stories and events accentuating the challenges and risks associated with no longer having easy access to one's home, whether by vehicle or foot. Of the several wildfires which occurred during my fieldwork, one was started across the river and highway from these cabins, embers of which were then whipped up into fire by strong March winds. The wind blew embers across the river, threatening the cabins, which had survived the CPF. In the absence of a bridge, the USFS wildland firefighters were prohibited from crossing the shallow, partially frozen river on foot to reach the other side and had to wait until the Larimer County Dive Rescue team could mobilize in Fort Collins and bring up rafts to ferry the firefighters to the other side, which took several hours. In the end, all the cabins survived, but it was a stark illustration of the consequences of not having a bridge. My participation in different experiences of situatedness through visiting interviewees in their homes was central to cultivating my understanding of the diverse impacts and consequences the CPF and everything it set in motion had for people's lives.
@@ -335,14 +291,10 @@ I joined the local, rural fire district as a volunteer firefighter for several r
 The district is 99 square miles, its boundary the length of nearly forty miles along the Poudre River and extending two miles wide in some areas. There is much more rural mountainous terrain outside the district whose residents do not have their own district, and the PCFPD is the first responding agency for this additional 150 square miles [@Us2024]. There are approximately thirty volunteers across four fire stations, two of them in the upper Poudre, one in the lower Poudre, and another outside of and above the canyon, reached by a steep, gravel road with switchbacks from the upper Poudre. Only some of the volunteers respond some of the time, and in the upper Poudre and adjacent area above, only eight respond consistently. Although the residential population of the canyon is quite low, it is a popular recreational area year round but especially in the fall and summer when people visit to fish, hunt, paddle, hike, and backpack in the national forest lands which make up 85% of the river corridor [@CachePoudreWild1990]. The PCFPD serves a much larger population than actually lives in the canyon. Though only 750-1,500 people live in the entire Poudre Canyon, it receives 500,000-800,000 visitors each year. In 2023, 75% of the calls were to assist non-residents [@PoudreCanyonFire2024]. The majority of calls to the PCFPD are either medical or vehicle accidents, not wildfires. During the time I have been a volunteer, there have only been three wildfires and three structure fires, out of nearly 200 calls. In addition to emergencies, PCFPD volunteers, including myself, also help with pile burning and wood chipping on private lands to help dispose of woody material called slash that poses a fire danger.
 
 
-
-```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Lighting burn piles at the Ben Delatour Boy Scout Ranch on January 21, 2023. Photo by author.", fig.scap = "Burn piles", out.extra=''}
+```{r figureTitle10, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Lighting burn piles at the Ben Delatour Boy Scout Ranch on January 21, 2023. Photo by author.", fig.scap = "Burn piles", out.extra=''}
 
 # Call the image
-include_graphics("../Images/burnPile.png")
-
-# Print the image
-# grid.raster(img)
+knitr::include_graphics("../Images/burnPile.png")
 ```
 
 #### Multi-jurisdictional Emergency Response
@@ -379,13 +331,10 @@ Another situation that required transparency around collecting information was w
 
 In August 2023, I organized The Future of Forest Service Fuels Treatments Tour with the help of a Fire Management Planning Specialist with the Arapaho-Roosevelt National Forest &mdash; the name of the national forest in the Poudre Canyon and surrounding areas &mdash; a representative from The Ember Alliance, a nationwide nonprofit focused on community planning for wildfires; and the Larimer Conservation District, one of 74 conservation districts in Colorado. I later joined the Board of Directors of The Ember Alliance.
 
-```{r figureTitle, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The Future of Forest Service Fuels Treatment Tour. Photo by author.", fig.scap = "Fuels treatments tour", out.extra=''}
+```{r figureTitle11, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="The Future of Forest Service Fuels Treatment Tour. Photo by author.", fig.scap = "Fuels treatments tour", out.extra=''}
 
 # Call the image
-include_graphics("../Images/fuelsTour.png")
-
-# Print the image
-# grid.raster(img)
+knitr::include_graphics("../Images/fuelsTour.png")
 ```
 
 I also coordinated a Post-Wildfire Flooding Tour for community members in September 2023, facilitated by a fluvial geomorphologist with a consulting firm who had designed all of the flood mitigation structures we visited. The purpose of these tours were twofold. First, I wanted to provide an opportunity to community members who had not directly experienced flooding to visit other community members' homes to see firsthand how flooding or debris flows were impacting them or altering the environment around their homes, led by the person who had designed flood mitigation at all of these sites. 

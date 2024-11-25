@@ -1,9 +1,9 @@
 ---
 output:
-  # bookdown::pdf_book: # comment when rendering to word document
-  bookdown::word_document2: # uncomment if rendering to word document
+  bookdown::pdf_book: # comment when rendering to word document
+  # bookdown::word_document2: # uncomment if rendering to word document
   # bookdown::html_book:
-    toc: yes # change me to yes if rendering to Word
+    toc: no # change me to yes if rendering to Word
     keep_tex: no
     number_sections: true
     fig_caption: true
@@ -43,9 +43,7 @@ library("grid")
 # These are needed in case you are having a glossary
 library("knitr")
 library("kableExtra")
-library("dplyr")
-library("tibble")
-library("readr")
+library("tidyverse")
 
 
 ```
@@ -62,8 +60,10 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 <!-- # Committee form -->
 
-```{r Committee_form, child = './Sections/01_Committee_form.Rmd', eval = T}
-```
+<!-- Uncomment lines 67 and 68 for final post-defense printing -->
+
+<!--```{r Committee_form, child = './Sections/01_Committee_form.Rmd', eval = T}
+<!--```
 
 \clearpage
 
