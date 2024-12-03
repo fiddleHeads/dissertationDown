@@ -5,11 +5,12 @@ output:
   # bookdown::html_book:
     toc: no # change me to yes if rendering to Word
     keep_tex: no
-    number_sections: true
+    number_sections: yes
     fig_caption: true
     fig_width: 6
     fig_height: 4
     latex_engine: xelatex
+output_file: "DissertationDaurio.pdf"
 header-includes:
    - \usepackage{ragged2e}
    - \usepackage{setspace}
@@ -21,11 +22,11 @@ header-includes:
    - \usepackage{caption} # allows setting caption width for tables
 bibliography: ./References/conclusion.bib
 csl: ./References/ref_format.csl
-link-citations: true
-linkReferences: true
-run_pandoc: true
-citeproc: true
-always_allow_html: true
+link-citations: yes
+linkReferences: yes
+run_pandoc: yes
+citeproc: yes
+always_allow_html: yes
 linkcolor: black
 urlcolor: black
 ---
@@ -45,6 +46,7 @@ library("grid")
 library("knitr")
 library("kableExtra")
 library("tidyverse")
+library("here")
 
 
 ```
@@ -63,8 +65,8 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 <!-- Uncomment lines 67 and 68 for final post-defense printing -->
 
-<!--```{r Committee_form, child = './Sections/01_Committee_form.Rmd', eval = T}
-<!--```
+```{r Committee_form, child = './Sections/01_Committee_form.Rmd', eval = T}
+```
 
 \clearpage
 
@@ -117,12 +119,23 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{tocdepth}{3}
 \tableofcontents
 \clearpage
+
 \phantomsection
 \addcontentsline{toc}{section}{List of Tables}
+
+\makeatletter
+     \renewcommand*\l@table{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
+
+
 \listoftables
 \clearpage
+
 \phantomsection
 \addcontentsline{toc}{section}{List of Figures}
+\makeatletter
+     \renewcommand*\l@table{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
 \listoffigures
 \clearpage
 \end{singlespace}
@@ -227,22 +240,6 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 ```
 
 \clearpage
-
-<!-- <!-- Modify me! --> -->
-<!-- # Insert Title of Chapter 5 Here -->
-
-<!-- <!-- Set figure and table numbering according to the chapter --> -->
-<!-- \renewcommand{\thefigure}{5.\arabic{figure}} -->
-<!-- \setcounter{figure}{0} -->
-<!-- \renewcommand{\thetable}{5.\arabic{table}} -->
-<!-- \setcounter{table}{0} -->
-<!-- \renewcommand{\theequation}{5.\arabic{equation}} -->
-<!-- \setcounter{equation}{0} -->
-
-<!-- ```{r chapter_five, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F} -->
-<!-- ``` -->
-
-<!-- \clearpage -->
 
 <!-- Done with data chapters, last sections -->
 

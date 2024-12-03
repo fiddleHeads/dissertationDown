@@ -13,7 +13,6 @@ bibliography: ./References/living.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 ## Introduction
 
 "Living with fire." "Live Wildfire Ready." "Fire Adapted Communities." These are some of the common catchphrases that presently dominate messaging about wildfire to the American public [@brenkert-smithLivingWildfirePark2023; @LiveWildfireReady; @tomanSocialScienceWildlandurban2013]. Most people in the U.S. will be familiar with the persistent mascot of the United States Forest Service (USFS), Smokey Bear, and his message, "Only You Can Prevent Wildfires". These phrases reflect dominant narratives in the wildland fire practitioner and management community and signify how the public, and particularly those people who live in fire adapted landscapes, are supposed to understand and navigate their relationship with wildfire. What does living with fire mean, to the agencies promoting these ideas, and to the communities toward whom this messaging is directed? What does it look like to facilitate living in a world where the impacts from wildfires affect people and places across jurisdictions for many years after the wildfire itself?
@@ -58,7 +57,7 @@ The origins of and reasons why the personal responsibility narrative is so perva
 
 There has been considerable research into individual and community risk perception of wildfire and flooding, which does not find conclusively that people lack responsibility or perceive that the federal government should be responsible for mitigating risk, nor does the literature suggest messaging personal responsibility to individual homeowners as an effective strategy in risk reduction efforts. Some studies directly contradict these narratives, showing the majority of residents understand wildfire risk to their homes, and do not expect the government to mitigate risk on private property [@mccaffreyOutreachProgramsPeer2011; @brenkert-smithLivingWildfirePark2023].
 
-What the literature on risk perception and attitudes toward mitigation does show is that there is considerable heterogeneity in how individuals and communities perceive risk and responsibility, even of the same wildfire event [@edgeleyCharacterizingDivergentExperiences2022]. Perceived risk may not be the same across hazards. Previous experience with flooding, for example, may be a good predictor of individual and collective flood mitigation action [@burnettFactorsInfluencingFlood2023], whereas previous experience with wildfire results in more variable perceptions of future risk [@martinRoleRiskPerceptions2009; @ghasemiExaminationSocialpsychologicalDrivers2020]. A number of studies suggest that risk exposure, the reasons people live in the places they do, and how they perceive wildfire mitigation by different actors varies according to cultural, geographic, institutional, historical, and land use factors [@mccaffreyUnderstandingPublicPerspectives2007; @brightContextBeliefsAttitudes2007; @edgeleyCharacterizingDivergentExperiences2022]. Results from this extensive literature over nearly two decades point to the importance of localized context in understanding risk and social dynamics and adaptive capacity [@mccaffreyUnderstandingPublicPerspectives2007; @paveglioUnderstandingSocialImpact2015; @paveglioExploringSocialCharacteristics2012] and in establishing trust and acknowledging local values [@vaskeSalientValueSimilarity2007].
+What the literature on risk perception and attitudes toward mitigation does show is that there is considerable heterogeneity in how individuals and communities perceive risk and responsibility, even of the same wildfire event [@edgeleyCharacterizingDivergentExperiences2022]. Perceived risk may not be the same across hazards. Previous experience with flooding, for example, may be a good predictor of individual and collective flood mitigation action [@burnettFactorsInfluencingFlood2023], whereas previous experience with wildfire results in more variable perceptions of future risk [@martinRoleRiskPerceptions2009; @ghasemiExaminationSocialpsychologicalDrivers2020]. A number of studies suggest that risk exposure, the reasons people live in the places they do, and how they perceive wildfire mitigation by different actors varies according to cultural, geographic, institutional, historical, and land use factors [@brightContextBeliefsAttitudes2007; @edgeleyCharacterizingDivergentExperiences2022]. Results from this extensive literature over nearly two decades point to the importance of localized context in understanding risk and social dynamics and adaptive capacity [@mccaffreyUnderstandingPublicPerspectives2007; @paveglioUnderstandingSocialImpact2015; @paveglioExploringSocialCharacteristics2012] and in establishing trust and acknowledging local values [@vaskeSalientValueSimilarity2007].
 
 The literature does not seem to support the efficacy of messaging personal responsibility in reducing risk nor the need to impugn people for where they choose to live, the reasons for which are complex. A fire adaptation strategy which conceptually separates &mdash; with judgement &mdash; those who choose to live in the WUI from those who do not is shortsighted for a number of reasons. First, different kinds of hazards exist everywhere. Just because someone does not live in the WUI does not mean they are not exposed to other kinds of hazards. Following the CPF, for example, when sediment transport facilitated through flooding compromised downstream water quality and supply, it was the populations in cities largely thought to be outside the WUI who were vulnerable.
 
@@ -110,6 +109,12 @@ In this section, I discuss four aspects of living with fire in the Poudre Canyon
 
 "Well, lovey, does it look like four feet to you?" Richard asked, referring to the diameter of a 500-year-old ponderosa pine which had been killed in the CPF. We were trying to eyeball how big it actually was. Richard and his sister Char, who together run the only remaining lumber mill in the vicinity of the Poudre Canyon, had stopped by my family's property in October 2023 to see how the CPF had affected the land, which the two siblings had known since they were children. "I hate to see a big tree like that die," Richard said.
 
+```{r figureTitle13, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="A ~500 year old ponderosa pine tree, shown alive here, which survived previous fires before succumbing to the Cameron Peak Fire. Photo by Tracy Baron.", fig.scap = "Ponderosa pine", out.extra=''}
+
+# Call the image
+knitr::include_graphics("../Images/ponderosa.png")
+```
+
 People who live in the Poudre have a close relationship to forests and fire. Because there is no natural gas line up the Poudre Canyon and electricity and propane are expensive, many people collect firewood each year to use in their woodstoves for heat, either from USFS lands, their own lands, or from neighbors’ lands. One family hosts a communal firewood cutting day, and in the aftermath of the CPF, people have gathered to help neighbors clean up hazard or fallen trees.
 
 Residents use local toponyms to refer to prominent geographic features, and some families have their own toponyms for places of significance to them, names which do not appear on any map, such as The Old Man’s Face or The Spire. These names root people in place over time. The Silent Forest, for example, is a section of forest off of a USFS trail far enough from the nearby creek that one cannot hear it, known by this name by multiple generations of just one family which lives nearby. Places are imbued with meaning because they evoke memories of experiences, people, and events of the pasts, *and* because of their present materiality [@bassoWisdomSitsPlaces1996].
@@ -132,9 +137,21 @@ In the next section, I describe another way in which people in the upper Poudre 
 
 ### Living With and Mitigating Risks
 
-We were a motley crew of volunteer firefighters from different departments, some with kitted out wildland firefighting backpacks, others with fire shelters attached through our belt loops and small plastic water bottles stuffed into the pockets of our Nomex (fire resistant) pants. Our group was responsible for curtailing the progression of the south flank of the Stove Prairie Fire which had started that afternoon in a dry wash riddled with trash and various kinds of shooting targets, including golf balls, bowling pins, plywood, and clay pigeons. In this wash used as an unofficial shooting range, some people had inadvertently started a fire on this windy, dry April day when their bullets caused a spark (see Figure 1).
+We were a motley crew of volunteer firefighters from different departments, some with kitted out wildland firefighting backpacks, others with fire shelters attached through our belt loops and small plastic water bottles stuffed into the pockets of our Nomex (fire resistant) pants. Our group was responsible for curtailing the progression of the south flank of the Stove Prairie Fire which had started that afternoon in a dry wash riddled with trash and various kinds of shooting targets, including golf balls, bowling pins, plywood, and clay pigeons. In this wash used as an unofficial shooting range, some people had inadvertently started a fire on this windy, dry April day when their bullets caused a spark.
 
-In rural, unincorporated communities around the state of Colorado, local, volunteer fire districts are the first line of defense against wildfires as well as other hazards. Perhaps because of the aforementioned widespread community involvement with the PCFPD, most community members understand the multiple risks associated with living and recreating up the Poudre, from rockfall on the narrow canyon highway to trees falling on cars at a national forest campground (see Figure 2). Rather than bucking responsibility related to living in the WUI, people up the Poudre have nuanced understandings of the complex ecosystem of risks involved in living there, of which residing in a fire adapted landscape is but one consideration. Furthermore, PCFPD volunteers, and the wider community of earlier volunteers, are assets to a wide range of stakeholders and land managers because of their presence and service in a landscape where the jurisdiction of responding to emergencies or wildfires would otherwise fall entirely to the county or to the USFS, whose employees live in Fort Collins, up to three hours away from the areas to which PCFPD responds.
+```{r figureTitle14, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Watching a juniper tree torch on the Stove Prairie Fire in April 2023. Photo by author.", fig.scap = "Stove Prairie Fire", out.extra=''}
+
+# Call the image
+knitr::include_graphics("../Images/SPF.png")
+```
+
+In rural, unincorporated communities around the state of Colorado, local, volunteer fire districts are the first line of defense against wildfires as well as other hazards. Perhaps because of the aforementioned widespread community involvement with the PCFPD, most community members understand the multiple risks associated with living and recreating up the Poudre, from rockfall on the narrow canyon highway to trees falling on cars at a national forest campground. Rather than bucking responsibility related to living in the WUI, people up the Poudre have nuanced understandings of the complex ecosystem of risks involved in living there, of which residing in a fire adapted landscape is but one consideration. Furthermore, PCFPD volunteers, and the wider community of earlier volunteers, are assets to a wide range of stakeholders and land managers because of their presence and service in a landscape where the jurisdiction of responding to emergencies or wildfires would otherwise fall entirely to the county or to the USFS, whose employees live in Fort Collins, up to three hours away from the areas to which PCFPD responds.
+
+```{r figureTitle15, eval = T, echo = T, fig.width = 3, fig.height = 2, echo=FALSE, fig.cap="Trees fallen over cars at a U.S. Forest Service campground after heavy rains. Photo by author.", fig.scap = "Trees over cars", out.extra=''}
+
+# Call the image
+knitr::include_graphics("../Images/PCFPD.png")
+```
 
 ### *There's going to come a day when Colorado's going to catch on fire*
 
@@ -167,14 +184,3 @@ I advocate moving away from the narrative of personal responsibility as a strate
 [^1]: See [@ottoliniKindlingChangeShaping2024] for a discussion similarly arguing for a new paradigmatic approach to living with fire, what they term "New Fire Culture."
 [^2]: I am on the BOD for The Ember Alliance and a member of the Fire Networks.
 [^3]: Much has been written about the deep connection to place among Indigenous communities the world over [@poudelPondBecomesLake2018; @asfawRoleSocialSupport2019]. My work highlights the place-attachment of a non-Indigenous community and suggests that policymakers should attend to the importance of such connections for all people in cultivating living with fire and in disaster recovery.
-
-<!-- # References -->
-\section*{Bibliography}
-\addcontentsline{toc}{section}{Bibliography} 
-
-<!-- Reset page config. For proper referencing  -->
-\noindent
-\leftskip=2em
-\parindent=-2em
-
-<div id="refs"></div>

@@ -1,12 +1,21 @@
 ---
+title:  Conclusion
+subtitle:  
+author:
+- Maya Daurio ^[University of British Columbia]
+Address: Department of Anthropology, 2104 – 6303 NW Marine Drive, Vancouver, BC Canada V6T 1Z1
+Email: spinosese@gmail.com
+Phone: (720) 220-8704
+Keywords: 
+abstract:
 output:
-  bookdown::pdf_book:
-    toc : no
-    keep_tex: no
-    number_sections: yes
+   pdf_document:
+       toc: true
+       number_sections: true
+       highlight: tango
 link-citations: true
 linkReferences: true
-bibliography: ./References/conclusion.bib
+bibliography: [./conclusion.bib]
 ---
 
 *The World and Life Won't be the Same Again*
