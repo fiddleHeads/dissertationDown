@@ -20,7 +20,7 @@ header-includes:
    - \usepackage{wrapfig}
    - \usepackage{pdfpages}
    - \usepackage{caption} # allows setting caption width for tables
-bibliography: ./References/conclusion.bib
+bibliography: ./References/references.bib
 csl: ./References/ref_format.csl
 link-citations: yes
 linkReferences: yes

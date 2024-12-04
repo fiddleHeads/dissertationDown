@@ -6,7 +6,7 @@ output:
     number_sections: yes
 link-citations: true
 linkReferences: true
-bibliography: ./References/conclusion.bib
+bibliography: ../References/references.bib
 ---
 
 *The World and Life Won't be the Same Again*

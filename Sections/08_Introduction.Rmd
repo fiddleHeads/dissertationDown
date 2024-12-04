@@ -6,7 +6,7 @@ output:
     number_sections: yes
 link-citations: true
 linkReferences: true
-bibliography: ./References/introduction.bib
+bibliography: ../References/references.bib
 ---
 
 High severity wildfire and post-fire flooding can dramatically alter landscapes and disrupt people's lives, sometimes in complex ways not readily visible to the broader public or to the naked eye. Wildfires in the western U.S., and elsewhere in the world, are becoming more destructive for communities and ecological systems [@wassermanClimateInfluencesFuture2023; @turnerMagnitudeDirectionTempo2022]. The associated hazards of wildfire smoke, extreme heat, and post-fire flooding have increasingly dire consequences for people and the environments in which they live and on which they rely for access to clean air, water, and the values they derive from the natural world [@jackaFloodFireReorganizing2023; @wilmotExpandingNumberWestern2021]. In response to the changes in how wildfires are affecting our communities and environments over roughly the last two decades, this research explores how people are reorienting to transformed lives and landscapes and coping with loss as a result of wildfire. This dissertation contributes to a more than human anthropology [@tsingMoreHumanSocialityCall2013] by attending to the qualities of fire and flood as they exist in a processual and relational material world [@ingoldBeingAliveEssays2011] through sustained ethnographic engagement with people and place.
@@ -336,7 +336,7 @@ Second, from my position of access as a researcher, I wanted to facilitate relat
 
 ## Chapter Overview
 
-The following three chapters are structured as standalone journal articles, in various stages of submission. Each of the three chapters contains its own literature review and references, as does Chapter 1, the Introduction, and Chapter 5, the Conclusion.
+The following three chapters are structured as standalone journal articles, in various stages of submission. Each of the three chapters contains its own literature review, although I have chosen to compile each chapter's bibliography into one, appearing at the end of the dissertation.
 
 In Chapter 2, I draw on the geological concept of cascading hazards and the ecological concept of a disturbance cascade to highlight how people and landscapes in the Poudre Canyon are concurrently subject to cascading impacts during and after a wildfire. Based on the lived experiences of those in the Poudre and nearby areas, I reflect on the ways people are affected by wildfire that is not easily enumerated and therefore less visible to the public and entities involved in recovery.
 

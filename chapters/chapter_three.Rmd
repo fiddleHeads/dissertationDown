@@ -6,7 +6,7 @@ output:
     number_sections: yes
 link-citations: true
 linkReferences: true
-bibliography: ./References/living.bib
+bibliography: ../References/references.bib
 ---
 
 ```{r setup, include=FALSE}
